@@ -10,7 +10,7 @@ const Customers = () => {
   return (
     <div className="customer section__padding" id="home">
       <div className="customer-content">
-        <p>We are on a mission to simplify and enhance <span className='gradient-text'>your event</span> planning and management experience, and we're glad you've decided to join us on this exciting journey.</p>
+        <p>We are on a mission to simplify and enhance <span className='gradient__text1'>your event</span> planning and management experience, and we're glad you've decided to join us on this exciting journey.</p>
         <hr className='custom-line'/>
       </div>
 

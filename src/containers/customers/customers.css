@@ -19,20 +19,21 @@
 .customer-content p{
     position: relative;
     top:-15rem;
-    color: #656565;
     text-align: center;
-    font-size: 40px;
-    font-family: Avenir;
+    font-style: italic;
+    font-size: 42px;
+    font-weight: 500;
 
 }
 .custom-line{
     width: 20%;
     height: 4px;
     border: none;
-    background-color: black;
     margin: auto;
     position: relative;
     top:-12rem;
+    background: linear-gradient(169deg, #C14BF2 0%, #E85FFB 100%);
+    ;
 }
 
 
@@ -43,6 +44,8 @@
     justify-content: center;
 
 }
+
+
 
 /* styles.css */
 .icons {
@@ -62,6 +65,7 @@
     margin: 30px 0;
     display: flex;
     justify-content: flex-start;
+    text-align: left;
     color: #434242;
     font-family: Avenir;
     font-size: 20px;
@@ -74,9 +78,26 @@
 
 
 
-@media screen and (min-width: 700px) {
-    .comment-0{
-        display: none;
+@media screen and (max-width: 1050px) {
+    .customer__text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    
+    }
+
+    .customer-content p{
+        position: relative;
+        top:-11rem;
+        text-align: center;
+        font-style: italic;
+        font-size: 25px;
+        font-weight: 500;
+    
+    }
+    .custom-line{
+        top:-8rem;
+
     }
   
     
@@ -85,41 +106,7 @@
 
 @media screen and (max-width: 650px) {
     
-    .customer-content h1{
-        font-size: 40px; 
-    }
-    
-    .customer-content p{
-        font-size: 16px;
-        padding: 0;
-    
-    }
-
-    .content-number1{
-        padding:1rem;
-        justify-items: center;
-        width: 100%;
-
-        
-    
-    
-    }
-    
-    .content-number1 h4 {
-        font-size: 20px;
-    
-    }
-    
-    .content-number1 p{
-        font-size: 18px;
-     
-    
-    }
-
-    .comment{
-        display: none;
-    }
-
+  
    
    
  
