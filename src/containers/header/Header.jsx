@@ -21,8 +21,8 @@ const Header = () => {
 
       </div>
 
-      <div className="header-content1 section_padding">
-          {<img src={image} className="image"  alt="image"/> }
+      <div className="header-content1">
+          {<img src={image} alt="image"/> }
       </div>
 
      

@@ -8,7 +8,8 @@
 .header-content h1{
     color: #0B0B0B;
     text-align: center;
-    font-size: 68px;
+    font-size: 72px;
+    font-weight: 900;
     margin-bottom: 2rem;
     margin-top: 5rem;
 
@@ -27,7 +28,7 @@
 
 
 .input-container{
-    margin-top: 4rem;
+    margin-top: 2rem;
 
 }
 .input-field{
@@ -61,10 +62,9 @@
     
 }
 
-.header-content1 .image{
+.header-content1 img{
     width: 100%;
-    max-width: 1413px;
-    height: auto;
+    max-width: 2413px;
 }
 
 .Star{
@@ -99,32 +99,13 @@
         font-size: 48px;
         margin-top: 8rem;
     }
-  
-    .box {
-        width: 60px;
-        height: 60px;
-        position: relative;
-        top:0.2rem;
-    }
-    .header-button .button1{
-        padding: 15px 20px;
-        font-size: 14px;
-  
-    }
-    .header-button .button2{
-        padding: 15px 20px;
-        font-size: 14px;
- 
-    }
 
-    .header-content__human img{
-        max-width: 100%;
-        position: relative;
-        top: -2.8rem;
-        display: flex;
-        justify-content: center;
-    
+    .header-content1 img{
+        width: 513px;
     }
+  
+  
+    
 
 }
 

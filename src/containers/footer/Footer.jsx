@@ -23,7 +23,6 @@ const Footer = () => {
         
 
       <div className='footer2'>
-        
         <a href="https://twitter.com/your_twitter_profile_here" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
         <a href="https://twitter.com/your_twitter_profile_here" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
         <a href="https://twitter.com/your_twitter_profile_here" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
@@ -31,7 +30,7 @@ const Footer = () => {
         <hr className='line2'/>
       </div>
       <div className='Copyright'>
-      <p>© 2023 Not just event. All rights reserved</p>
+       <p>© 2023 Not just event. All rights reserved</p>
       </div>
 
       
