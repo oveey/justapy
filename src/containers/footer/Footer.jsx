@@ -1,13 +1,8 @@
 import React from 'react'
 import './footer.css';
-import logo from '../../assets/logo.png';
+import event from '../../assets/event.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faLinkedin,faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
-
-
-
-
-
 
 
 const Footer = () => {
@@ -15,7 +10,7 @@ const Footer = () => {
   return (
     <div className="footer section__padding">
       <div className='footer-logo'>
-        { <img src={logo}  alt="logo" />}
+        { <img src={event}  alt="event" />}
       </div>
       <p className='footer-text'>Connect with us on social media: Follow us on platforms for the latest updates, news, and exclusive content.</p>
 

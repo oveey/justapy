@@ -41,11 +41,16 @@
 .customer__text{
     margin-top: 5rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 .customer-text h1{
     font-size: 50px;
+    
+}
+.customer-text h2{
+    font-size: 20px;
+    text-align: left;
     
 }
 
@@ -71,8 +76,8 @@
     justify-content: flex-start;
     text-align: left;
     color: #434242;
-    font-family: Avenir;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
 } 
 
 .image2 img{
@@ -109,7 +114,7 @@
 }
 
 @media screen and (max-width: 650px) {
-    
+
     
   
    

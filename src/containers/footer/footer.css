@@ -15,7 +15,7 @@
 
 .footer2 {
     color: white;
-    margin: 4rem ;
+    margin: 3rem ;
 
 }
 
@@ -27,18 +27,17 @@
   
 
 .footer-logo img {
-    width: 10%;
-    margin-bottom: 3rem;
+    width: 110px;
+    margin-bottom: 1rem;
 
     
 
 }
 .line2{
-    margin-top: 2rem;
-    width: 100%;
-    height: 1px;
-    background-color: #333;
-    margin: 20px 0;
+    border: none; /* Remove the default border */
+    height: 1px; /* Set the height of the line */
+    border-top: 1px dashed #fcf9f9; /* Apply dashed border style */
+    margin: 20px 0; 
 }
 
 

@@ -10,7 +10,7 @@ const Header = () => {
     <div className="header section__padding" id="home">
       <div className="header-content">
         <h1>Welcome to <span className='gradient__text1'>NotJustEvent,</span> your all-in-one event  planning solution!</h1>
-        <h2>The Future of <span className='gradient__text'>Event Planning</span> is Almost Here. Be Among the First to <span className='gradient__text'>Experience</span> it !</h2>
+        <h2>The Future of <span className='gradient__text'>Event Planning</span> is Almost Here. Be Among the First to <span className='gradient__text1'>Experience</span> it !</h2>
         <p>Get notified when we launch and get a free early access.<img src={star} alt="Star" className="Star"/></p>
 
         <div class="input-container">
