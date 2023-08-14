@@ -21,7 +21,7 @@
 
 }
 .Navbar__logo img{
-    width: 98px;
+    width: 30%;
     cursor: pointer;
 
 
@@ -97,6 +97,7 @@
 @media screen and (max-width: 1050px) {
     .Navbar__links-container{
         display: none;
+        
     }
 
     .navbar-menu {
@@ -118,15 +119,18 @@
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
     .Navbar {
-        padding: 2rem 2rem;
+        padding: 1rem 2rem;
+
+
     }
+   
 }
 
 @media screen and (max-width: 550px) {
     .Navbar {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .Navbar-sign {

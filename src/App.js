@@ -2,6 +2,8 @@ import React from 'react';
 import {  Navbar } from './components';
 import { Customers,  Footer, Header} from './containers';
 import './App.css';
+import 'animate.css';
+
 
 
 const App = () => {
