@@ -20,6 +20,7 @@ const Header = () => {
         </div>
 
       </div>
+      <div className='gradient'></div>
 
       <div className="header-content1">
           {<img src={image} alt="image"/> }

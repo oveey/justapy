@@ -36,11 +36,11 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="navbar-menu_container">
             <div className="navbar-menu_container-links">
-            <p><a href="#home">Venue</a></p>
-            <p><a href="#faq">Vendor</a></p>
-            <p><a href="#service">Tickets</a></p>
-            <p><a href="#about">Host</a></p>
-            <p><a href="#brand">Live events</a></p>
+              <p><a href="#home">Venue</a></p>
+              <p><a href="#faq">Vendor</a></p>
+              <p><a href="#service">Tickets</a></p>
+              <p><a href="#about">Host</a></p>
+              <p><a href="#brand">Live events</a></p>
 
             </div>
           
