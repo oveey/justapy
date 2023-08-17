@@ -2,12 +2,14 @@ import React from 'react'
 import image from '../../assets/image.png';
 import star from '../../assets/star.png';
 import './header.css';
+import 'animate.css';
+
 
 
 
 const Header = () => {
   return (
-    <div className="header section__padding" id="home">
+    <div className="header animate__animated animate__bounce section__padding" id="home">
       <div className="header-content">
         <h1>Welcome to <span className='gradient__text1'>NotJustEvent,</span> your all-in-one event  planning solution!</h1>
         <h2>The Future of <span className='gradient__text'>Event Planning</span> is Almost Here. Be Among the First to <span className='gradient__text1'>Experience</span> it !</h2>
