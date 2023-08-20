@@ -16,7 +16,7 @@ const Customers = () => {
       duration: 2000, // Set your desired duration for animations
       once: false, // Animations will only occur once
       startEvent: 'DOMContentLoaded', // Trigger animations when the DOM is fully loaded
-      offset: 100, // Adjust this value as needed
+      offset: 60, // Adjust this value as needed
 
 
     });
@@ -30,8 +30,8 @@ const Customers = () => {
       </div>
 
       <div className="customer-content">
-        <div className="customer-text">
-         <h1>Why Sign up</h1>
+        <div className="customer-text" data-aos="fade-in" data-aos-duration="3000">
+         <h1>Why Sign up ?</h1>
          <h2>By signing up for our waitlist, you will be among the first to be notified when our platform launches. But that's not all! As an early adopter, you will also get</h2>
 
         </div>

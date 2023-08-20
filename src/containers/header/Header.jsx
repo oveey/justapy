@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import image from '../../assets/image.png';
+import event1 from '../../assets/event1.png';
 import star from '../../assets/star.png';
 import './header.css';
 import 'animate.css';
@@ -32,7 +32,7 @@ const Header = () => {
 
         <div class="input-container">
           <input class="input-field" type="text" placeholder="Enter your email address"></input>
-          <button class="button">Join the waitlist</button>
+          <button class="button1">Join the waitlist</button>
 
         </div>
 
@@ -40,7 +40,7 @@ const Header = () => {
       <div className='gradient'></div>
 
       <div className="header-content1"  data-aos="fade-up" data-aos-duration="3000" >
-          {<img src={image} alt="image"/> }
+          {<img src={event1} alt="Event1"/> }
       </div>
 
      
