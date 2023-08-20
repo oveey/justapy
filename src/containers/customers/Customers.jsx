@@ -1,15 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import  icon from '../../assets/icon.png';
 import  image2 from '../../assets/image2.png';
-
 import './customers.css';
+import  AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
+
+
 
 
 
 const Customers = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000, // Set your desired duration for animations
+      once: false, // Animations will only occur once
+      startEvent: 'DOMContentLoaded', // Trigger animations when the DOM is fully loaded
+      offset: 100, // Adjust this value as needed
+
+
+    });
+  }, []);
+
   return (
-    <div className="customer section__padding" id="home">
-      <div className="customer-content">
+    <div className="customer section__padding">
+      <div className="customer-content" data-aos="fade-up" data-aos-duration="1000">
         <p>We are on a mission to simplify and enhance your <span className='gradient__text1'>event planning</span> and management experience, and we're glad you've decided to join us on this exciting journey.</p>
         <hr className='custom-line'/>
       </div>
@@ -33,7 +48,7 @@ const Customers = () => {
         </div>
      
         
-        <div className="image2">
+        <div className="image2" data-aos="fade-left">
           {<img src={image2} className="image"  alt="image2"/> }
         </div>
 

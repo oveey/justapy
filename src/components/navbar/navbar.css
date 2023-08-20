@@ -23,6 +23,7 @@
 .Navbar__logo img{
     width: 30%;
     cursor: pointer;
+    height: auto;
 
 
 }
@@ -35,17 +36,18 @@
 
 .Navbar__links-container a{
     margin: 0 1rem;
-    text-transform: capitalize;
     text-decoration: none;
     font-family: var(--font-family);
     color: var(--color-links);
     font-size: 16px;
-    font-style: normal;
     font-weight: 453;
-    line-height: 140%; /* 25.2px */
 
 
 } 
+
+.Navbar__links-container :hover{
+    color: black;
+}
 
 
 

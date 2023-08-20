@@ -1,15 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import image from '../../assets/image.png';
 import star from '../../assets/star.png';
 import './header.css';
 import 'animate.css';
+import  AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 
 
 
 
 const Header = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2000, // Set your desired duration for animations
+      once: false, // Animations will only occur once
+      startEvent: 'DOMContentLoaded', // Trigger animations when the DOM is fully loaded
+      offset: 120, // Adjust this value as needed
+
+
+    });
+  }, []);
+
   return (
-    <div className="header animate__animated animate__bounce section__padding" id="home">
+    <div className="header section__padding">
       <div className="header-content">
         <h1>Welcome to <span className='gradient__text1'>NotJustEvent,</span> your all-in-one event  planning solution!</h1>
         <h2>The Future of <span className='gradient__text'>Event Planning</span> is Almost Here. Be Among the First to <span className='gradient__text1'>Experience</span> it !</h2>
@@ -24,7 +39,7 @@ const Header = () => {
       </div>
       <div className='gradient'></div>
 
-      <div className="header-content1">
+      <div className="header-content1"  data-aos="fade-up" data-aos-duration="3000" >
           {<img src={image} alt="image"/> }
       </div>
 
