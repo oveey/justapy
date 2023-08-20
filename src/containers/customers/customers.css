@@ -81,7 +81,8 @@
 
 .image2 img{
     width: 100%;
-    max-width: 508px;     
+    max-width: 508px;
+    height: auto;     
 }
 
 
