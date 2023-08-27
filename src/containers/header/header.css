@@ -5,11 +5,6 @@
     align-items: center;
     width: 100%;
 }
-.header-content{
-    position: relative;
-    z-index: 7;
-
-}
 
 
   
@@ -126,7 +121,7 @@ button:hover:before {
 
 .header-content1 img{
     width: 100%;
-    max-width: 2413px;
+    max-width: 2613px;
     height: auto;
 }
 
@@ -161,7 +156,6 @@ button:hover:before {
 @media screen and (max-width: 650px) {
     .header-content h1{
         font-size: 40px;
-        margin-top: 6rem;
     }
 
     
