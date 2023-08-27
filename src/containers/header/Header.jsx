@@ -2,12 +2,8 @@ import React, { useEffect } from 'react';
 import event1 from '../../assets/event1.png';
 import star from '../../assets/star.png';
 import './header.css';
-import 'animate.css';
 import  AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-
-
-
 
 
 const Header = () => {

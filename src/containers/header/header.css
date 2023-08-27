@@ -3,6 +3,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .header-content{
     position: relative;
@@ -13,12 +14,11 @@
 
   
 .header-content h1{
-    color: #0B0B0B;
+    color: #f8f3f3;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 2rem;
-    margin-top: 5rem;
 
 
 
@@ -27,6 +27,7 @@
 .header-content h2{
     text-align: center;
     font-weight: 600;
+    color: #D9CDCD;
 
 
 
@@ -36,7 +37,7 @@
 .header-content p{
     margin-top: 2rem;
     font-weight: 200;
-    color: #434242;
+    color: #fafafa;
     text-align: center;
     font-family: Avenir;
     font-size: 20px;
@@ -136,19 +137,7 @@ button:hover:before {
     top:0.4rem;
 }
 
-.gradient{
-    position: absolute;
-    top: 0;
-    width: 70%;
-    max-width: 1489px;
-    flex-shrink: 0;
-    height: 60%;
-    border-radius: 1489px;
-    background: radial-gradient(79.10% 55.65% at 45.43% 40.55%, rgba(254, 244, 239, 0.90) 0%, rgba(217, 217, 217, 0.00) 100%);
-    filter: blur(45.5px);
-    z-index:0;
 
-}
   
 @media screen and (max-width: 1050px) {
     .header{

@@ -1,9 +1,8 @@
 .Navbar{
-    background: var(--color-bg);
+    background: var(--gradient-bg);
     display: flex;
     align-items: center;
     padding: 0 3rem;
-    position: fixed;
     z-index: 111;
     width: 100%;
 }
@@ -17,13 +16,15 @@
 
 .Navbar__logo{
     margin-right: 5rem;
-
+   
 
 }
 .Navbar__logo img{
-    width: 30%;
+    width: 100%;
+    max-width: 130px;
     cursor: pointer;
     height: auto;
+
 
 
 }
@@ -76,11 +77,12 @@
     margin-top: 2.5rem;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
-    z-index: 1;
+    z-index: 11;
 }
 .navbar-menu_container-links a{
     color: #0e0e0e;
     text-decoration: none;
+    font-size: larger;
 }
 
 
